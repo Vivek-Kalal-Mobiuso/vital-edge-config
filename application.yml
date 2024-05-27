@@ -13,7 +13,7 @@ logging.file.name: logs/info.log
 logback.classic.pattern.ClassicConverter: PATTERN
 
 # Pattern layout for log messages
-pattern: %d{ISO8601} %-5level %logger{36} - %msg%n
+pattern: "%d{ISO8601} %-5level %logger{36} - %msg%n"
 
 logging.level.org:
   apache.catalina.core.: OFF
